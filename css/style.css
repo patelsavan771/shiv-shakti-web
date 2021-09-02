@@ -50,28 +50,6 @@ body {
     background-color: rgb(192, 85, 85);
 }
 
-#contactbox{
-    border: 2px solid black;
-    width: 50%;
-    margin: auto;
-    
-}
-
-#contactheader{
-    background-color: #aa1919;
-    padding: 9px;
-    text-align: center;
-    color:white;
-}
-
-#form{
-    height: 250px;
-    text-align: center;
-    align-content: cente;
-
-}
-
-
 
 
 .footer{
@@ -147,4 +125,44 @@ body {
 
     
  
+}
+
+
+/****  contact us *****/
+
+
+#contactbox{
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+
+#contactheader{
+    background-color: #aa1919;
+    padding: 9px;
+    text-align: center;
+    color:white;
+}
+
+#form{
+    height: 250px;
+    text-align: center;
+
+}
+
+#whatsapplink {
+    text-decoration: none;
+    display: inline-block;
+    position: fixed;
+    right: 15px;
+    bottom: 75px;
+    padding: 10px;
+    background-color:green;
+    color:white
+}
+
+#whatsapplink a:hover {
+    background-color: blue;
 }
