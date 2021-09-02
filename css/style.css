@@ -13,7 +13,7 @@ body {
     /* background-color: #aa1919; */
     color:white;
     /*background: url('img1.jpg') -100px 300px no-repeat, url('img2.jpg') 1165px 300px no-repeat;*/
-    background: url("../images/logo_favicon-100x100.png") no-repeat right top,  url("../images/logo_favicon-100x100.png") no-repeat left top, #aa1919;
+    background: url("../images/logo_favicon-removebg.png") no-repeat right top,  url("../images/logo_favicon-removebg.png") no-repeat left top, #aa1919;
     /* background-repeat: no-repeat;*/
     background-size: 150px 150px ; 
    
