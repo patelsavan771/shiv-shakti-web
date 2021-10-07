@@ -82,50 +82,48 @@ body {
 
 /***** this section is for menu tab**************/
 
-.mainmenu{
-    width: 100%;
-    
-    /* border: 2px solid black; */
+
+
+.menu {
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
     background-color: #aa1919;
+    font-size: 110%;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
-.mainmenu h2{
-    box-sizing: border-box;
-    color:white;
-    /* font-size: ; */
-    text-align: center;
-    padding: 10px;
-    border: 2px solid yellow;
-    /* background-color: yellow; */
-
-
+.submenu h2 {
+    text-align: center; 
+    border: 1px solid black;
+    background-color: yellow;  
+    color: #aa1919;
 }
 
-.submenu {
-    width: 70%;
-    border: 1px solid white;
-    margin-left: auto;
-    margin-right: auto;
-    color:white;
+.submenu  table,th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: auto;
 }
 
-.menu{
-    
-    background-color: #aa1919;
-    margin: 0px;
+.t1 {
+    width: 50%;
+    margin: auto;
+    color: white;
+     display: none;  /* asdfasdfasdfasd-------------------- none karvanu 6e*/ 
 }
 
-.menu img {
-    width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 20px groove #aa1919;
-
-
-    
- 
+.submenu:hover table {
+    display: table;
 }
+
+.yellow {
+    color:yellow;
+}
+
+
+
 
 
 /****  contact us *****/
