@@ -130,10 +130,17 @@ body {
 
 /****  contact us *****/
 
+/* table, td, th {
+    border: 1px solid black;
+} */
+#contactus {
+    margin: auto;
+    font-size: 20px;
+}
 
 #contactbox{
     border: 2px solid black;
-    width: 50%;
+    width: 40%;
     margin: auto;
     box-sizing: border-box;
     
@@ -144,14 +151,20 @@ body {
     padding: 9px;
     text-align: center;
     color:white;
+    font-size: 22px;
 }
 
 #form{
     height: 250px;
     text-align: center;
-
 }
 
+.ipgrp {
+    display: block;
+    margin: 5px auto;
+    padding: 3px;
+    width: 50%;
+}
 #whatsapplink {
     text-decoration: none;
     display: inline-block;
