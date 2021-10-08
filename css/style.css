@@ -5,6 +5,7 @@ body {
     margin: 0px;
     padding: 0px;
     min-height: 100vh;
+    font-family: sans-serif;
 }
 
 .heading {
@@ -155,33 +156,75 @@ body {
     font-size: 20px;
 }
 
-#contactbox{
+/* #contactbox{
     border: 2px solid black;
     width: 40%;
     margin: auto;
     box-sizing: border-box;
     
-}
+} */
 
-#contactheader{
+/* #contactheader{
     background-color: #aa1919;
     padding: 9px;
     text-align: center;
     color:white;
     font-size: 22px;
+} */
+
+
+
+/* new contact us */
+
+#contheading {
+    text-align: center;
+    font-size: 200%;
+    font-family: sans-serif;
+}
+
+#contpara {
+    font-size: 140%;
+    text-align: center;
+    font-family: sans-serif;
+}
+#iconcontainer {
+    box-sizing: border-box;
+    width: fit-content;
+    margin: auto;
+    padding: auto;
+}
+
+.icon  {
+    padding: 10px;
+}
+
+.iconimg {
+    display: inline-block;
+    margin: auto;
+    height: 35px;
+    width: 35px;
+}
+
+#formheading {
+    margin-top: 40px;
 }
 
 #form{
-    height: 250px;
+    height: 350px;
     text-align: center;
+
 }
 
 .ipgrp {
     display: block;
     margin: 5px auto;
     padding: 3px;
-    width: 50%;
+    width: 50vw;
 }
+
+
+
+
 #whatsapplink {
     text-decoration: none;
     display: inline-block;
