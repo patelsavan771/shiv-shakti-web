@@ -6,6 +6,7 @@ body {
     padding: 0px;
     min-height: 100vh;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 .heading {
@@ -51,6 +52,22 @@ body {
 .nav li a:hover {
     background-color: rgb(192, 85, 85);
 }
+
+.mainabout {
+
+    width: 70%;
+    margin: auto;
+
+}
+#aboutpara {
+    font-size: 17px;
+    text-indent: 25px;
+    justify-content: center;
+}
+
+
+
+
 /*footer******************************************************/
 
 #page-container {
@@ -83,20 +100,6 @@ body {
    
 
     
-
-/********* about page style goes from here ************/
-
-.mainabout {
-
-    width: 70%;
-    margin: auto;
-
-}
-#aboutpara {
-    font-size: 17px;
-    text-indent: 25px;
-    justify-content: center;
-}
 
 
 
@@ -175,7 +178,45 @@ body {
 
 
 
-/****  contact us *****/
+/********* find us page style goes from here ************/
+
+#ourparlours {
+    text-align: center;
+}
+
+.locationtemp {
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 10px;
+    max-width: 650px;
+    margin: 25px auto;
+    
+}
+
+.locheder {
+    display: inline-block;
+}
+
+.sec1, .sec2 {
+
+    display: inline-block;
+    width: 40%;
+}
+
+.locbtn {
+    text-decoration: none;
+    background-color: #aa1919;
+    color: white;
+    padding: 10px 15px;
+}
+
+.locbtn:hover {
+    background-color: rgb(192, 85, 85);
+}
+
+
+
+/**************************  contact us ***********************/
 
 /* table, td, th {
     border: 1px solid black;
