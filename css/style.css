@@ -110,7 +110,7 @@ body {
 
 .menu {
     border: 2px solid black;
-    width: 50%;
+    max-width: 750px;
     margin: auto;
     background-color: #aa1919;
     font-size: 110%;
@@ -132,10 +132,10 @@ body {
 }
 
 .t1 {
-    width: 50%;
+    max-width: 750px;
     margin: auto;
     color: white;
-     display: none;  /* asdfasdfasdfasd-------------------- none karvanu 6e*/ 
+    display: none;  /* asdfasdfasdfasd-------------------- none karvanu 6e*/ 
 }
 
 .submenu:hover table {
@@ -145,6 +145,15 @@ body {
 .yellow {
     color:yellow;
 }
+
+#menudownloadbtn {
+    display: block;
+    margin: 10px auto;
+    width: fit-content;  
+}
+
+
+
 /**********************************Gallery style part************************************/
 
 #container{
